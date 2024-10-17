@@ -1,0 +1,48 @@
+.kanban-container {
+  display: flex;
+}
+
+/* Left Column (for CAM-5 and CAM-8) */
+.left-column {
+  width: 20%;
+  margin-right: 20px; /* Space between left column and Kanban board */
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Kanban board for other tasks */
+.kanban-board {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.kanban-column {
+  width: 30%;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-card {
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-card h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.task-card p {
+  margin: 5px 0;
+}

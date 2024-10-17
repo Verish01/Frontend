@@ -1,0 +1,17 @@
+.kanban-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .kanban-card h3 {
+    font-size: 16px;
+  }
+  
+  .kanban-card-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
